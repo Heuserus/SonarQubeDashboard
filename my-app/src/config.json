@@ -1,0 +1,33 @@
+{
+"apps": [
+    {"name" : "app1",
+     "repos" : [
+         {"name" : "FCM API",
+          "url-key" : "fcm-api"},
+          {"name" : "Fleetbeyond",
+            "url-key" : "fleetbeyond"},
+            {"name" : "Kamcockpit Service",
+                "url-key" : "kamcockpit"}
+     ]},
+     {"name" : "app2",
+        "repos" : [
+            {"name" : "FCM API",
+             "url-key" : "fcm-api"},
+             {"name" : "Fleetbeyond",
+               "url-key" : "fleetbeyond"},
+               {"name" : "Kamcockpit Service",
+                   "url-key" : "kamcockpit"}
+        ]},
+        {"name" : "app3",
+            "repos" : [
+                {"name" : "FCM API",
+                 "url-key" : "fcm-api"},
+                 {"name" : "Fleetbeyond",
+                   "url-key" : "fleetbeyond"},
+                   {"name" : "Kamcockpit Service",
+                       "url-key" : "kamcockpit"}
+            ]}
+],
+"newMeasures": ["new_bugs","new_vulnerabilities","new_security_hotspots","new_technical_debt","new_coverage","new_duplicated_lines_density"],
+"measures": ["bugs","vulnerabilities","security_hotspots","sqale_index","coverage","duplicated_lines_density"]
+}
